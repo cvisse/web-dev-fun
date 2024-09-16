@@ -1,5 +1,4 @@
-/* || General setup */
-
+/* General setup */
 html, body {
   margin: 0;
   padding: 0;
@@ -16,8 +15,7 @@ body {
   margin: 0 auto;
 }
 
-/* || typography */
-
+/* Typography */
 h1, h2, h3 {
   font-family: 'Cinzel Decorative', cursive;
   color: #2a2a2a;
@@ -48,8 +46,7 @@ p, li {
   line-height: 1.5;
 }
 
-/* || header layout */
-
+/* Header layout */
 header {
   margin-bottom: 10px;
   display: flex;
@@ -77,6 +74,7 @@ header img {
   padding-top: 20.15px;
 }
 
+/* Navigation */
 nav {
   height: 50px;
   flex: 100%;
@@ -104,11 +102,9 @@ nav a, nav span {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
-
 }
 
-/* || main layout */
-
+/* Main layout */
 main {
   display: flex;
 }
@@ -136,3 +132,5 @@ aside img {
 footer {
   margin-top: 10px;
 }
+
+
